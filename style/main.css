@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+:root{
+    --laranja: #ffbc57;
+    --lrj-escuro: #DA9724;
+    --cinza: #252525;
+    --preto: #141414;
+    --fnt-c: #cecece;
+    --ftn-c-escuro: #9c9a9a;
+    --branco: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--cinza);
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+h2{
+    color: var(--branco);
+    font-size: 30px;
+}
+h3{
+    color: var(--branco);
+    font-size: 25px;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+.container{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+/* ===== CABEÇALHO ====== */
+header{
+    padding: 20px 0px 15px;
+    background: var(--preto);
+}
+header nav a {
+    text-decoration: none;
+    color: var(--fnt-c);
+    margin-left: 15px;
+}   
+header nav a:hover{
+    color: var(--ftn-c-escuro);
+}
+#pag_atual{
+    border-bottom: solid 2px var(--laranja);
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ===== PRINCIPAL ====== */
+.principal{
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4) 100%), url('../img/the\ boys-s2.jpg');
+    height: 500px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    align-items: flex-start;
+}
+main .container{
+    margin-bottom: 50px;
+    width: 65%;
+}
+.principal h1{
+    color: var(--branco);
+    font-size: 45px;
+}
+.principal p{
+    margin-bottom: 30px;
+}
+.botoes .play{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ffbc57b3;
+    color: #fff;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+.botoes .play:hover{
+    background-color: var(--lrj-escuro);
+}
+.botoes button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: #5d5a5ab3;
+    color: #fff;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+.botoes button:hover{
+    background-color: #252525b3;
+}
+.botoes button i {
+    margin-right: 10px;
+    color: var(--lrj-escuro);
+}
+.botoes .play i {
+    margin-right: 10px;
+    color: #fff;
+}
