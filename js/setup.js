@@ -11,7 +11,6 @@ $('#ouvindo').owlCarousel({
     loop: false,
     margin:10,
     nav:false,
-    navText: ["<-  Anterior", "Próximo  ->"],
     dots: false,
     stagePadding: tamanhoDiv(),
     responsive:{
@@ -66,8 +65,69 @@ $("#proximo").on('click', function(){
     $('#destaques').trigger('next.owl.carousel');
 });
 
-    
-// carrossel para as demais sections
+
+// carrossel para section "Séries"
+$('#series').owlCarousel({
+    loop: true,
+    margin:10,
+    nav:false,
+    dots: false,
+    stagePadding: tamanhoDiv(),
+    slideBy:3,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+$(".series .anterior").on('click', function(){
+    $('#series').trigger('prev.owl.carousel');
+});
+$(".series .proximo").on('click', function(){
+    $('#series').trigger('next.owl.carousel');
+})
+
+
+// carrossel para section "Filmes"
+$('#filmes').owlCarousel({
+    loop: true,
+    margin:10,
+    nav:false,
+    dots: false,
+    stagePadding: tamanhoDiv(),
+    slideBy:3,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+$(".filmes .anterior").on('click', function(){
+    $('#filmes').trigger('prev.owl.carousel');
+});
+$(".filmes .proximo").on('click', function(){
+    $('#filmes').trigger('next.owl.carousel');
+})    
+
+
+
+
+
+// carrossel para as demais sections    
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,

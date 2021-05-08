@@ -167,6 +167,9 @@ section{
     background-color: #252525c0;
     font-size: 35px;
 }
+.relative{
+    position: relative;
+}
 
 
 /* ===== SESSÃO OUVINDO ====== */
@@ -174,12 +177,6 @@ section{
     height: 100%;
     width: 100%;
     display: block;
-}
-#ouvindo{   
-    color: var(--laranja);
-}
-.teste{
-    position: relative;
 }
 
 
@@ -223,5 +220,19 @@ section{
 #proximo:hover{
     background-color: var(--lrj-escuro);
     color: var(--cinza);  
+}
+
+/* ===== SESSÃO SÉRIES ====== */
+.series div img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* ===== SESSÃO FILMES ====== */
+.filmes div img{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
