@@ -171,24 +171,13 @@ section{
     position: relative;
 }
 
-
-/* ===== SESSÃO OUVINDO ====== */
-.ouvindo div img{
+.thumbs div img{
     height: 100%;
     width: 100%;
     display: block;
 }
-
 
 /* ===== SESSÃO DESTAQUES ====== */
-.destaques{
-    position: relative;
-}
-.destaques div img{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
 #anterior{
     padding: 10px 10px;
     position: absolute;
@@ -220,19 +209,5 @@ section{
 #proximo:hover{
     background-color: var(--lrj-escuro);
     color: var(--cinza);  
-}
-
-/* ===== SESSÃO SÉRIES ====== */
-.series div img{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-/* ===== SESSÃO FILMES ====== */
-.filmes div img{
-    height: 100%;
-    width: 100%;
-    display: block;
 }
 

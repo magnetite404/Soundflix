@@ -121,12 +121,69 @@ $(".filmes .anterior").on('click', function(){
 });
 $(".filmes .proximo").on('click', function(){
     $('#filmes').trigger('next.owl.carousel');
-})    
+})   
+
+
+// carrossel para section "Animes"
+$('#animes').owlCarousel({
+    loop: true,
+    margin:10,
+    nav:false,
+    dots: false,
+    stagePadding: tamanhoDiv(),
+    slideBy:3,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+$(".animes .anterior").on('click', function(){
+    $('#animes').trigger('prev.owl.carousel');
+});
+$(".animes .proximo").on('click', function(){
+    $('#animes').trigger('next.owl.carousel');
+})
+
+
+// carrossel para section "Jogos"
+$('#jogos').owlCarousel({
+    loop: true,
+    margin:10,
+    nav:false,
+    dots: false,
+    stagePadding: tamanhoDiv(),
+    slideBy:3,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+$(".jogos .anterior").on('click', function(){
+    $('#jogos').trigger('prev.owl.carousel');
+});
+$(".jogos .proximo").on('click', function(){
+    $('#jogos').trigger('next.owl.carousel');
+})
 
 
 
-
-
+/*
 // carrossel para as demais sections    
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -144,3 +201,4 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+*/
