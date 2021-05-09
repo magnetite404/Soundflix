@@ -70,7 +70,7 @@ main{
     margin-bottom: 1.5%;
 }
 .principal{
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4) 100%), url('../img/the\ boys-s2.jpg');
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4) 100%), url('../img/boys-capa.png');
     height: 500px;
     background-size: cover;
     background-position: center;
@@ -170,18 +170,21 @@ section{
 .relative{
     position: relative;
 }
-
 .thumbs div img{
     height: 100%;
     width: 100%;
     display: block;
+    border-radius: 5px;
+}
+.destaques .thumbs div img{
+    border-radius: 0;
 }
 
 /* ===== SESSÃO DESTAQUES ====== */
 #anterior{
     padding: 10px 10px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 1%;
     z-index: 2;
     border: none;
@@ -197,7 +200,7 @@ section{
 #proximo{
     padding: 10px 10px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 1%;
     z-index: 2;
     border: none;
