@@ -214,3 +214,15 @@ section{
     color: var(--cinza);  
 }
 
+
+/* ===== RODAPÉ ====== */
+footer{
+    padding: 1.5% 0 1.5%;
+}  
+footer .container{
+    font-size: 17px;
+    text-align: center;
+}
+footer img{
+    width: 110px;
+}
