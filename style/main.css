@@ -51,22 +51,45 @@ header{
     width: 100%;
     z-index: 10;
 }
-header nav a {
-    text-decoration: none;
-    color: var(--fnt-c);
-    margin-left: 15px;
-}   
-header nav a:hover{
-    color: var(--ftn-c-escuro);
-}
-#pag_atual{
-    border-bottom: solid 2px var(--laranja);
-}
 header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+header .container div {
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: var(--fnt-c);
+    margin-left: 15px;
+}   
+nav a:hover{
+    color: var(--ftn-c-escuro);
+}
+#pag_atual{
+    border-bottom: solid 2px var(--laranja);
+}
+#conta {
+    display: flex;
+    align-items: center;
+}
+#conta img{
+    margin-left: 30px;
+    margin-right: 8px;
+    width: 35px;
+    border-radius: 5px;
+
+}
+#conta p {
+    display: inline-flex;
+    color: var(--fnt-c);
+    font-size: 18px;
 }
 
 
