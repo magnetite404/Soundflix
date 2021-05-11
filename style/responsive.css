@@ -1,0 +1,181 @@
+@media screen and (max-width:1151px){
+    main .container{
+        width: 75%;
+    }
+    .botoes .play{
+        font-size: 18px;
+    }
+    .botoes button{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    main .container{
+        width: 72%;
+    }
+    .botoes .play{
+        padding: 10px 18px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+    .botoes button{
+        padding: 10px 18px;
+        margin-right: 5px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:900px){
+    main .container{
+        width: 81%;
+    }
+}
+
+@media screen and (max-width:768px){
+    header .container{
+        flex-direction: column;
+    }
+    main .container{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:610px){
+    .principal{
+        background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6) 100%), url('../img/boys-capa2.png');
+        background-size: cover;
+        background-position: center;
+    }
+    main .container{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    main .container h1{
+        font-size: 35px;       
+    } 
+    .principal p{
+        margin-bottom: 15px;
+    }
+    .botoes .play{
+        padding: 10px 12px;
+        margin-right: 4px;
+        font-size: 15.5px;
+    }
+    .botoes button{
+        padding: 10px 12px;
+        margin-right: 4px;
+        font-size: 15.5px;
+    }
+}
+
+@media screen and (max-width:530px){
+    /*colocar hamburguer*/
+    header .container{
+        flex-direction: row;
+    }
+    header nav {
+        display: none;
+    }
+
+    .principal p{
+        font-size: 15;
+    }
+    .principal .botoes{
+        display: none;
+    }
+    .btn-respon{
+        display: block;
+    }
+    .btn-respon .play{
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #ffbc57b3;
+        color: #fff;
+        border: none;
+        font-family: 'Cabin', sans-serif;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+    }
+    .btn-respon .play:hover{
+        background-color: var(--lrj-escuro);
+    }
+    .btn-respon button{
+        padding: 10px 20px;
+        margin-right: 10px;
+        font-size: 20px;
+        background-color: #5d5a5ab3;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+    }
+    .btn-respon button:hover{
+        background-color: #252525b3;
+    }
+    .btn-respon button i {
+        color: var(--lrj-escuro);
+    }
+    .btn-respon .play i {
+        margin-right: 10px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:425px){
+    #logo{
+        width: 130px;
+    }
+    main .container h1{
+        font-size: 50px;
+        margin-bottom: 20px;       
+    }
+    .principal {
+        height: 400px;
+    }
+    .principal p{
+        display:none;
+    }
+    section{
+        margin-bottom: 5%;
+    }
+    .anterior{
+        display: none;
+    }
+    .proximo{
+        display: none;
+    }
+    footer{
+        padding: 5% 0 5%;
+    }
+    footer .container p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:375px){
+    h3{
+        font-size: 22px;
+    }
+    .principal {
+        height: 350px;
+    }
+    .btn-respon .play{
+        padding: 8px 16px;
+        font-size: 18px;
+    }
+    .btn-respon button{
+        padding: 8px 16px;
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    .btn-respon .play i {
+        margin-right: 8px;
+    }
+    footer .container p{
+        font-size: 16px;
+    }
+}

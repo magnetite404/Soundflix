@@ -15,10 +15,18 @@ $('#ouvindo').owlCarousel({
     stagePadding: tamanhoDiv(),
     responsive:{
         0:{
-            items:3
+            items:2,
+            margin:5,
+        },
+        375:{
+            items:3,
+            margin: 5,
         },
         600:{
             items:4
+        },
+        768:{
+            items:5
         },
         1000:{
             items:6
@@ -44,10 +52,18 @@ $(".ouvindo .proximo").on('click', function(){
     dots: false,
     responsive:{
         0:{
-            items:1
+            items:2,
+            margin:5,
+        },
+        375:{
+            items:2,
+            margin:5,
         },
         600:{
             items:3
+        },
+        768:{
+            items:4
         },
         1000:{
             items:5
@@ -76,10 +92,18 @@ $('#series').owlCarousel({
     slideBy:3,
     responsive:{
         0:{
-            items:3
+            items:2,
+            margin:5,
+        },
+        375:{
+            items:3,
+            margin: 5,
         },
         600:{
             items:4
+        },
+        768:{
+            items:5
         },
         1000:{
             items:6
@@ -105,10 +129,18 @@ $('#filmes').owlCarousel({
     slideBy:3,
     responsive:{
         0:{
-            items:3
+            items:2,
+            margin:5,
+        },
+        375:{
+            items:3,
+            margin: 5,
         },
         600:{
             items:4
+        },
+        768:{
+            items:5
         },
         1000:{
             items:6
@@ -134,10 +166,18 @@ $('#animes').owlCarousel({
     slideBy:3,
     responsive:{
         0:{
-            items:3
+            items:2,
+            margin:5,
+        },
+        375:{
+            items:3,
+            margin:5,
         },
         600:{
             items:4
+        },
+        768:{
+            items:5
         },
         1000:{
             items:6
@@ -163,10 +203,18 @@ $('#jogos').owlCarousel({
     slideBy:3,
     responsive:{
         0:{
-            items:3
+            items:2,
+            margin:5,
+        },
+        375:{
+            items:3,
+            margin: 5,
         },
         600:{
             items:4
+        },
+        768:{
+            items:5
         },
         1000:{
             items:6
