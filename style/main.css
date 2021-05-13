@@ -60,6 +60,9 @@ header .container{
 header .container div {
     display: flex;
 }
+#bars{
+    display: none;
+}
 nav{
     display: flex;
     align-items: center;
@@ -85,7 +88,6 @@ nav a:hover{
     margin-right: 8px;
     width: 35px;
     border-radius: 5px;
-
 }
 #conta p {
     display: inline-flex;

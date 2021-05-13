@@ -71,14 +71,30 @@
 }
 
 @media screen and (max-width:530px){
-    /*colocar hamburguer*/
-    header .container{
-        flex-direction: row;
-    }
     header nav {
         display: none;
     }
-
+    #bars{
+        display: block;
+    }
+    #bars button{
+        font-size: 30px;
+        padding: 0;
+        color: #ffbc57;
+        background-color: transparent;
+        border: none;
+    }
+    #bars button:hover{
+        color: #DA9724;
+    }
+    header .container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #conta img{
+        margin-left: 0px;
+    }
     .principal p{
         font-size: 15;
     }
